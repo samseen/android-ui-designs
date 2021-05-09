@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARKET"
+        android:textSize="40sp"
+        android:textColor="#f77547"
+        android:textStyle="bold"
+        android:letterSpacing="0.06"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Market. Let's shop!"
+        android:textSize="16dp"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:layout_width="263dp"
+        android:layout_height="268dp"
+        android:src="@drawable/splash"
+        android:layout_marginTop="90dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:text="Continue"
+        android:textColor="#fff"
+        android:background="@drawable/button" />
+
+</LinearLayout>
